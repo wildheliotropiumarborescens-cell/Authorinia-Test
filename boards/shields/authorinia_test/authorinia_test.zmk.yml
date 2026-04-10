@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: authorinia_test
+name: authorinia_test
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - authorinia_test_left
+  - authorinia_test_right

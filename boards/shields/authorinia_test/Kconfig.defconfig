@@ -1,0 +1,14 @@
+
+if SHIELD_AUTHORINIA_TEST_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "authorinia_test"
+
+endif
+
+if SHIELD_AUTHORINIA_TEST_LEFT || SHIELD_AUTHORINIA_TEST_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
